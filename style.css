@@ -1,0 +1,99 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #228B22; /* green background */
+  color: #333;
+  text-align: center; /* center all text */
+}
+
+/* Header and navigation */
+header {
+  background: #004d00; /* darker green */
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  color: #ffeb3b; /* yellow links for contrast */
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section layout using Box Model */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  background: #fff; /* white cards on green background */
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+/* Service cards */
+.service-card {
+  border: 1px solid #004d00;
+  padding: 15px;
+  margin: 15px 0;
+  background: #e6ffe6; /* light green card */
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.service-card h3 {
+  margin-top: 0;
+  color: #004d00; /* dark green headings */
+}
+
+/* Team members */
+.team-member {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background: #e6ffe6;
+  border: 1px solid #004d00;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #004d00;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+footer section {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+/* Center the Contact Us block inside the footer */
+footer section {
+  background: none;
+  border: none;
+  padding: 0;
+  max-width: 1000px;   /* keep same width as other sections */
+  margin: 0 auto;      /* <-- centers the block */
+  text-align: center;
+}
